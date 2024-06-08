@@ -68,7 +68,7 @@ src/assets: Contains static assets such as images and styles.
 
 ### Clone the repository
 ```bash
-git clone https://github.com/shota-murjikneli/Dashboard.git
+git clone https://github.com/MariamDZE1/PROJECTS-PORTAL1.git
 
 # Install dependencies
 npm install
