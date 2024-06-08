@@ -1,0 +1,61 @@
+.container {
+  margin-top: 120px;
+  text-align: center;
+  color: #2e8b57; 
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: #228b22; 
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.lead {
+  font-size: 1.8rem;
+  color: #8b4513; 
+  font-family: 'Georgia', serif;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #d2691e; 
+  font-family: 'Times New Roman', serif;
+}
+
+p:hover {
+  color: #ff8c00; 
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.benefit-box {
+  background-color: #f4a460; 
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 22%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.benefit-box:hover {
+  background-color: #deb887; 
+}
+
+.benefit-box h3 {
+  font-size: 1.5rem;
+  color: #2e8b57; 
+  margin-bottom: 15px;
+}
+
+.benefit-box p {
+  font-size: 1rem;
+  color: #ffffff;
+}

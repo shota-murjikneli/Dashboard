@@ -1,0 +1,9 @@
+<ng-container *ngIf="isLoggedIn()">
+  <app-header></app-header>
+</ng-container>
+<main class="container mt-5">
+  <router-outlet></router-outlet>
+</main>
+<ng-container *ngIf="isLoggedIn()">
+  <app-footer></app-footer>
+</ng-container>

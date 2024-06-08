@@ -1,0 +1,18 @@
+<div class="container" *ngIf="!isLoading">
+  <div class="animation-container">
+    <img src="path/to/your/atomic-animation.gif" alt="Atomic Animation" class="chemical-animation">
+  </div>
+  <div class="detail-content">
+    <h2>User Detail</h2>
+    <div class="mat-elevation-z8">
+      <div class="form-group">
+        <label>Username</label>
+        <input [(ngModel)]="user.username" name="username" readonly class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input [(ngModel)]="user.email" name="email" readonly class="form-control">
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 animation-container">
+    </div>
+    <div class="col-md-6">
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Username</th>
+              <th>Email</th>
+              <th>Password</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of users">
+              <td>{{ user.id }}</td>
+              <td>{{ user.username }}</td>
+              <td>{{ user.email }}</td>
+              <td>
+                <div class="input-group">
+                  <span>{{ user.showPassword ? user.password : '******' }}</span>
+                  <button class="btn btn-outline-secondary btn-sm" (click)="togglePasswordVisibility(user)">
+                    {{ user.showPassword ? 'Hide' : 'Show' }}
+                  </button>
+                </div>
+              </td>
+              <td>
+                <button class="btn btn-sm btn-danger" (click)="deleteUser(user.email)">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

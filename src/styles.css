@@ -1,0 +1,68 @@
+body {
+  background-color: #f8faff;
+  color: #2c3e50;
+}
+
+.navbar {
+  background-color: #2c3e50 !important;
+}
+
+.navbar .navbar-brand {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link:hover {
+  color: #ff6347 !important;
+}
+
+.navbar .nav-link.bg-danger {
+  background-color: #dc3545 !important;
+  color: #ffffff !important;
+  border-radius: 4px;
+}
+
+.navbar .navbar-toggler {
+  opacity: 0.5; 
+}
+
+.navbar .navbar-toggler:hover {
+  opacity: 0.7; 
+}
+
+.navbar-collapse.collapse.show {
+  justify-content: center !important;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+.btn-primary:hover {
+  background-color: #1a242f;
+  border-color: #1a242f;
+}
+
+.form-control {
+  border-radius: 4px;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+@import "~bootstrap/dist/css/bootstrap.min.css";

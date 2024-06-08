@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  background-color: #eaf2e3; 
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detail-content {
+  width: 50%;
+}
+
+.detail-content h2 {
+  color: #2e8b57; 
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.detail-content .form-group {
+  margin-bottom: 20px;
+}
+
+.detail-content label {
+  color: #556b2f; 
+  font-size: 1.2rem;
+}
+
+.detail-content .form-control {
+  background-color: #f0fff0; 
+  border: 1px solid #8b4513; 
+  border-radius: 8px;
+  color: #2c3e50;
+  font-size: 1.1rem;
+}
+
+.animation-container {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.chemical-animation {
+  animation: float 4s ease-in-out infinite;
+}
